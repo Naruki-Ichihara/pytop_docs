@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpytop_docs=self.webpackChunkpytop_docs||[]).push([[2522],{2222:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/pytop_docs/blog/tags/facebook","allTagsPath":"/pytop_docs/blog/tags","count":1,"unlisted":false}')}}]);
