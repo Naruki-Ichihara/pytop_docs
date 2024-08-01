@@ -31,6 +31,8 @@ To install Pytop, you need to have Python and FEniCS installed on your system. Y
 pip install git+https://github.com/Naruki-Ichihara/pytop.git@main
 ```
 
+More detailed installation can be found in [this page](/docs/Getting-started/Installing-pytop)
+
 ## Basic usage
 ### Import pytop
 First, you need to import *pytop* by standard Python style:
