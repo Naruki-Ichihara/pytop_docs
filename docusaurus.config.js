@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Naruki Ichihara', // Usually your GitHub org/user name.
-  projectName: 'pytop docs', // Usually your repo name.
+  organizationName: 'Naruki-Ichihara', // Usually your GitHub org/user name.
+  projectName: 'pytop_docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
