@@ -21,3 +21,30 @@
   align-items: center;
   justify-content: center;
 }
+
+.heroBanner {
+  padding: 4rem 0;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textSection {
+  flex: 1;
+  max-width: 60%;
+}
+
+.imageSection {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: add rounded corners */
+}
