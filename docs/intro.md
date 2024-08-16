@@ -21,7 +21,6 @@ where $\Omega$ is the design domain and $\bm u$ represents specific fields that 
 
 We provide a container for this repository. The container includes python 3.11, FEniCS bundles, and NLOpt with python interface.
 The container is avaiable in [dockerhub](https://hub.docker.com/repository/docker/ichiharanaruki/pytop/general).
-To try out this repository, connect to the codespace with the following:
 
 ## Installation
 
@@ -31,7 +30,7 @@ To install Pytop, you need to have Python and FEniCS installed on your system. Y
 pip install git+https://github.com/Naruki-Ichihara/pytop.git@main
 ```
 
-More detailed installation can be found in [this page](/docs/Getting-started/Installing-pytop)
+More detailed installation can be found in [this page](/docs/Getting-started/Installing-pytop).
 
 ## Basic usage
 ### Import pytop

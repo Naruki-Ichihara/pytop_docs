@@ -10,7 +10,7 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PYTOP',
+  title: 'pytop',
   tagline: 'Topology optimization in python',
   favicon: 'img/favicon.ico',
 
@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'jp',
+    locales: ['jp'],
   },
 
   presets: [
@@ -48,14 +48,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Naruki-Ichihara/pytop_docs/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Naruki-Ichihara/pytop_docs/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -77,12 +77,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/top_logo.png',
+      image: 'img/logo.png',
       navbar: {
-        title: 'PYTOP documentation',
+        title: 'pytop',
         logo: {
           alt: 'pytop Logo',
-          src: 'img/top_logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -91,19 +91,19 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          //{to: '/blog', label: 'Blog', position: 'left'},
+          //{
+          //  href: 'https://github.com/facebook/docusaurus',
+          //  label: 'GitHub',
+          //  position: 'right',
+          //},
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Navigation',
             items: [
               {
                 label: 'Tutorial',
@@ -114,35 +114,35 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              //{
+              //  label: 'Stack Overflow',
+              //  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              //},
+              //{
+              //  label: 'Discord',
+              //  href: 'https://discordapp.com/invite/docusaurus',
+              //},
+              //{
+              //  label: 'Twitter',
+              //  href: 'https://twitter.com/docusaurus',
+              //},
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub',
+                href: 'https://github.com/Naruki-Ichihara/pytop',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: 'Naruki Ichihara',
+                href: 'https://naruki.dev',
+              },              
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} pytop project. Naruki Ichihara.`,
       },
       prism: {
         theme: prismThemes.github,
