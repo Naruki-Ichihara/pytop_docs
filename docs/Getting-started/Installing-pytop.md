@@ -5,7 +5,7 @@ sidebar_position: 1
 # Installing pytop
 
 :::warning
-pytop do not support winodws. Please use WSL2.
+pytop do not support python in windows. Please use WSL2.
 :::
 
 ## Dependencies
@@ -38,4 +38,4 @@ pip install .
 ## On codespaces
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Naruki-Ichihara/pytop)
 
-Github condespaces is cloud virtual environment. Above button navigates and construct virtual vscode with our container on your browser.
+Github condespaces is cloud-based virtual environment. Above button navigates and construct virtual vscode with our container on your browser.

@@ -52,6 +52,30 @@ $$
 a({\bm u},{\bm v})=\int_\Omega\sigma({\bm u}) : \varepsilon({\bm v})\  dV
 $$
 
+## Optimization problem
+### Design variable
+The density variable $\rho({\bm x})$ is defined to represent the material distribution. We parametarize the modulus $E_\rho$ with $\rho({\bm x})$ as following:
+
+$$
+E_\rho=((1-\epsilon)\rho^p + \epsilon)E_s={\rm simp}(\rho; p)E_s,
+$$
+
+where $E_s$ and $p$ are bulk modulus and penalty parameter, and $\epsilon$ is small value to avoid the computational problem. In the isotropic elasticity problem, the bilinear form $a({\bm u},{\bm v})$
+can be rewritten as:
+
+$$
+a({\bm u},{\bm v},\rho)=\int_\Omega\sigma({\bm u}){\rm simp}(\rho; p) : \varepsilon({\bm v})\  dV.
+$$
+
+
+### Objective
+Here, compliance energy minimization problem is considered. The objective fuction $F$ is
+
+$$
+F = a({\bm u_s},{\bm u_s},\rho)=\int_\Omega\sigma({\bm u_s}){\rm simp}(\rho; p) : \varepsilon({\bm u_s})\  dV
+$$
+
+where ${\bm u_s}$ is a solution deformation of elastic problem.
 
 ### Implimentation
 First, we import pytop package as:
@@ -62,3 +86,5 @@ import pytop as pt
 :::warning
 Do not import FEniCS like `from fenics import *` because all method in FEniCS are overloaded by *pyadjoint* and imported in `__init__.py` of pytop.
 :::
+
+Second 
